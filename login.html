@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户登录页面</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	</head>
+	<body>
+		<div id="box">
+			<!-- logo -->
+			<div id="logo">
+					<a href="index.html" target="_blank"><img src="./img/logo.jpg" alt="首页" title="首页"></a>
+			</div>
+			
+			<!-- 导航 -->
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="register.html">用户注册</a></li>
+					<li><a href="login.html">用户登录</a></li>
+				</ul>
+			</div>
+			
+			<!-- 主体 -->
+			<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+			<div id="Main">
+				<div id="dialog" style="margin-inline: 40.625rem;">
+						<form name="f2" action="doLogin.jsp" method="post" onsubmit="return check();">
+								<table height="9rem">
+								<h2>
+								<tr>
+				                  	<td><h2>用户名: </h2></td>
+				                	<td><input type="text" name="username" id="username" value="" /></td>
+				               	</tr>
+								<tr>
+									<td "><h2><b>密码:</b></h2></td>
+									<td><input type="password" name="password" id="pw" value=""  /></td>
+								</tr>
+								<td><input type="reset" value="重置" style="background-color: red; /* Green */
+									border: none;
+									color: white;
+									padding: 15px 32px;
+									text-align: center;
+									text-decoration: none;
+									display: inline-block;
+									font-size: 16px;
+									margin: 4px 2px;
+									cursor: pointer;">
+									</td>
+							
+								<td><input type="submit" value="登录" onclick="check()" style="background-color: green; /* Green */
+									border: none;
+									color: white;
+									padding: 15px 32px;
+									text-align: center;
+									text-decoration: none;
+									display: inline-block;
+									font-size: 16px;
+									margin: 4px 2px;
+									cursor: pointer;">
+								</td>
+								</tr>
+								</h2>
+								</table>
+							</form>
+				</div> 
+			</div>
+		</div>
+	</body>
+</html>

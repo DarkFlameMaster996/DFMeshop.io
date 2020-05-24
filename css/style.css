@@ -1,0 +1,57 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(../img/backgroundpic.jpg);
+	background-size: cover;
+}
+#box{
+	width: 43.75rem;
+	height: 8rem;
+	background-color: rgb(3,47,84);
+	margin: 0 auto;
+}
+#logo{
+	height: 6.6875rem;
+	width: 19.8125rem;
+	background-color: rgb(3,47,84);
+	display: inline;
+}
+#nav{
+	height:1.875rem;
+	background-color: darkred;
+	display:block;
+}
+#Main{
+	height:37.5rem;
+	background-color: transparent;
+	background-color: floralwhite;
+}
+li{
+	background-color: darkred;
+	display: inline-block;
+	width: 10rem;
+	height: 1.875rem;
+	font-size: 1.25rem;
+	text-align: center;
+	line-height: 1.875rem;
+}
+a{
+	color: white;
+	/* 去下划线 */
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	background: rgb(3,47,84);
+}
+
+#dialog{
+	position: absolute;
+	left: 40%;
+	margin-left: 0.5rem;
+	top: 10%;
+	margin-top: 9rem;
+	
+}
